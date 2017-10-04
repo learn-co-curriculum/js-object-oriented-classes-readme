@@ -141,7 +141,7 @@ class Teacher extends User {
 }
 
 tom.sayHello()
-// Hello, my name is fred
+// Hello, my name is tom
 // hello
 ```
 
@@ -157,3 +157,5 @@ In this lesson, we explored the new `class` syntax of ES2015 and how to create a
 + [MDN: Classes](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes)
 
 <p data-visibility='hidden'>View <a href='https://learn.co/lessons/js-classes-readme'>Classes in JS</a> on Learn.co and start learning to code for free.</p>
+
+<p class='util--hide'>View <a href='https://learn.co/lessons/js-object-oriented-classes-readme'>Classes</a> on Learn.co and start learning to code for free.</p>
