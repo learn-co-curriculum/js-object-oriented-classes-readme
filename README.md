@@ -89,7 +89,7 @@ tom.teachMath()
 
 ```
 
-Here, we've *extended*, or inherited from `User` when creating the new `Teacher` class. We also added a new method `teachMath` that available to Teacher objects but is not available to User objects.  We can override an inherited method simply by defining another method with the same name.
+Here, we've *extended*, or inherited from `User` when creating the new `Teacher` class. We also added a new method `teachMath` that is available to Teacher objects but is not available to User objects.  We can override an inherited method simply by defining another method with the same name.
 
 ```js
 class User {
@@ -141,7 +141,7 @@ class Teacher extends User {
 }
 
 tom.sayHello()
-// Hello, my name is fred
+// Hello, my name is tom
 // hello
 ```
 
@@ -157,3 +157,5 @@ In this lesson, we explored the new `class` syntax of ES2015 and how to create a
 + [MDN: Classes](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes)
 
 <p data-visibility='hidden'>View <a href='https://learn.co/lessons/js-classes-readme'>Classes in JS</a> on Learn.co and start learning to code for free.</p>
+
+<p class='util--hide'>View <a href='https://learn.co/lessons/js-object-oriented-classes-readme'>Classes</a> on Learn.co and start learning to code for free.</p>
