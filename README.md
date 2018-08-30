@@ -89,7 +89,7 @@ tom.teachMath()
 
 ```
 
-Here, we've *extended*, or inherited from `User` when creating the new `Teacher` class. We also added a new method `teachMath` that available to Teacher objects but is not available to User objects.  We can override an inherited method simply by defining another method with the same name.
+Here, we've *extended*, or inherited from `User` when creating the new `Teacher` class. We also added a new method `teachMath` that is available to Teacher objects but is not available to User objects.  We can override an inherited method simply by defining another method with the same name.
 
 ```js
 class User {
