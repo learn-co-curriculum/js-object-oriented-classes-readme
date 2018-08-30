@@ -47,7 +47,7 @@ class User {
   }
 }
 
-var sarah = new User('sarah', 'sarah@gmail.com');
+let sarah = new User('sarah', 'sarah@gmail.com');
 sarah.sayHello();
 ```
 
