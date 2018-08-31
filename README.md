@@ -71,7 +71,7 @@ tom.sayHello()
 // hello my name is Tom
 ```
 
-Note that even though we have not defined any methods directly on the `Teacher` class, by using the extends keyword an instance of a Teacher shares has all of the same functionality of a newly created user.  We can also add new methods to a Teacher class that are not declared on a User.  For example, we can add a method called teachMath:
+Note that even though we have not defined any methods directly on the `Teacher` class, by using the extends keyword an instance of a Teacher has all of the same functionality of a newly created user.  We can also add new methods to a Teacher class that are not declared on a User.  For example, we can add a method called teachMath:
 
 ```js
 class Teacher extends User {
